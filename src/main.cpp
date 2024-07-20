@@ -1,9 +1,9 @@
 #include <WiFi.h>
-#include <Arduino_Mqtt_Client.h>  //Version @^0.1.8
-#include <ThingsBoard.h>  //Version @0.12.2
-#include <ArduinoOTA.h> //(Uncomment if you are using PlatformIO)
-// include library to read and write from flash memory
-#include <EEPROM.h>
+#include <Arduino_Mqtt_Client.h>          //Version @^0.1.8
+#include <ThingsBoard.h>                  //Version @0.12.2
+#include <ArduinoOTA.h>                   //(Uncomment if you are using PlatformIO)
+#include <EEPROM.h>                       // include library to read and write from flash memory
+#include "features/EEPROM_Features.hpp"
 
 //-------------------------EEPROM-Settings-------------------------
 // define the number of bytes you want to access
